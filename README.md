@@ -1,4 +1,4 @@
-# Basic-Enumeration-Script-1.0
+# Basic-Enumeration-Script-1.1
 Nmap scan + gobuster on the specified @IP
 
 ## Usage
