@@ -1,5 +1,5 @@
 # Basic-Enumeration-Script-1.2
-Nmap scan + gobuster on the specified @IP
+Port scan + directory scan (for web servers) on the specified @IP
 
 ## Usage
 Download the script and run it with ```enum.sh <IP ADDRESS TO SCAN>```
