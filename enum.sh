@@ -1,9 +1,8 @@
 #!/bin/bash
 
-echo "What is the machine's @IP?"
-read IP
-echo  -e "The port scan is loading... check ports.txt when finished!\n"
-nmap -A -T5 $IP >ports.txt
+ip=$1
+echo -e "The port scan is loading... check ports.txt when finished!\n"
+nmap -A -T5 $ip >ports.txt
 echo "OPEN PORTS :"
 echo "--------------------------"
 while read -r line; do
@@ -22,4 +21,3 @@ elif [ "$ans" = "n" ]; then
 else
 	echo "Wrong input!"
 fi
-
