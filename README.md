@@ -7,4 +7,4 @@ The script will create a ports.txt and a directories.txt file in the directory y
 
 ### Important
 
-The gobuster scan will use a `/usr/share/wordlists dicctionary`, wihch is included by default in Kali, feel free to change which wordlist you use by modifying the code.
+The gobuster scan will use a `/usr/share/wordlists dictionary`, wihch is included by default in Kali, feel free to change which wordlist you use by modifying the code.
